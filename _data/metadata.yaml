@@ -37,7 +37,7 @@ footer:
         link: "https://facebook.com/startbootstrap"
       - title: "Follow Me on github" 
         icon: "fab fa-github"
-        link: "https://github.com/adamdjbrett/11ty-clean-blog-startboostrap
+        link: "https://github.com/adamdjbrett/11ty-clean-blog-startboostrap"
       - title: "Follow Me on RSS"
         icon: "fas fa-rss"
         link: "/feed/feed.xml"
