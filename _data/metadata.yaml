@@ -7,9 +7,9 @@ locale: "en_US"
 formspree_id: ""
 url: "clean.000000076.xyz"
 metasocial: 
- - facebook: "https://www.facebook.com/thepracticaldev"
- - twitteruser: "@thepracticaldev"
- - twitter: "https://x.com/thepracticaldev"
+ - facebook: "https://facebook.com/StartBootstrap"
+ - twitteruser: "@SBootstrap"
+ - twitter: "https://twitter.com/SBootstrap"
 nav_title: "Dev"
 navbar: 
  - nav: "Home" 
@@ -22,6 +22,8 @@ navbar:
    link: "/contact/"
  - nav: "Search" 
    link: "/search/"
+ - nav: "Download"
+   link: "https://github.com/adamdjbrett/11ty-clean-blog-startboostrap"
 blog: 
  button: Exlpore All Post
  url: /blog/
@@ -29,13 +31,13 @@ footer:
   social: 
       - title: "Follow Me on Twitter" 
         icon: "fab fa-twitter"
-        link: "https://x.com/thepracticaldev"
+        link: "https://x.com/SBootstrap"
       - title: "Follow Me on Facebook" 
         icon: "fab fa-facebook"
-        link: "https://facebook.com/thepracticaldev"
-      - title: "Follow Me on Academia.edu" 
+        link: "https://facebook.com/startbootstrap"
+      - title: "Follow Me on github" 
         icon: "fab fa-github"
-        link: "https://github.com/forem"
+        link: "https://github.com/adamdjbrett/11ty-clean-blog-startboostrap
       - title: "Follow Me on RSS"
         icon: "fas fa-rss"
         link: "/feed/feed.xml"
