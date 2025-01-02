@@ -1,0 +1,27 @@
+<div class="my-5">
+<form action="https://formspree.io/f/{{metadata.formspree_id}}" method="POST">
+<div class="form-floating">
+<input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." required />
+<label for="name">Name</label>
+<div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+</div>
+<div class="form-floating">
+<input class="form-control" id="email" type="email"  name="email" placeholder="Enter your email..." required />
+<label for="phone">Email Address</label>
+<div class="invalid-feedback" data-sb-feedback="email:required">A email address is required.</div>
+</div>
+<div class="form-floating">
+<textarea class="form-control" name="message" id="message" placeholder="Enter your message here..." style="height: 12rem" data-sb-validations="required"></textarea>
+<label for="message">Message</label>
+<div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+</div>
+<br />
+<div class="d-none" id="submitSuccessMessage">
+<div class="text-center mb-3">
+<h3>Thanks for your message !!</h3>
+</div>
+</div>
+<div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+<button class="btn btn-primary text-uppercase disabled" id="submitButton" type="submit">Send</button>
+</form>
+</div>

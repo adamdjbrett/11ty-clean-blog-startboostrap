@@ -1,0 +1,52 @@
+title: "John Doe"
+description: "This person does not exist"
+favicon: "/logo.png"
+image: "/images/profile.jpg"
+language: "en"
+locale: "en_US"
+formspree_id: ""
+url: "clean.000000076.xyz"
+metasocial: 
+ - facebook: "https://www.facebook.com/thepracticaldev"
+ - twitteruser: "@thepracticaldev"
+ - twitter: "https://x.com/thepracticaldev"
+nav_title: "Dev"
+navbar: 
+ - nav: "Home" 
+   link: "/"
+ - nav: "About" 
+   link: "/about/"
+ - nav: "Blog" 
+   link: "/blog/"
+ - nav: "Contact" 
+   link: "/contact/"
+ - nav: "Search" 
+   link: "/search/"
+blog: 
+ button: Exlpore All Post
+ url: /blog/
+footer: 
+  social: 
+      - title: "Follow Me on Twitter" 
+        icon: "fab fa-twitter"
+        link: "https://x.com/thepracticaldev"
+      - title: "Follow Me on Facebook" 
+        icon: "fab fa-facebook"
+        link: "https://facebook.com/thepracticaldev"
+      - title: "Follow Me on Academia.edu" 
+        icon: "fab fa-github"
+        link: "https://github.com/forem"
+      - title: "Follow Me on RSS"
+        icon: "fas fa-rss"
+        link: "/feed/feed.xml"
+  copyrights: "(CC BY-NC 4.0) License "
+  text1: " Built with "
+  text2: Eleventy 11ty
+  text2_link: https://11ty.dev
+  text3: "| Developed by"
+  text4: "Start Bootstrap"
+  text4_link: https://startbootstrap.com/theme/clean-blog
+author: 
+ name: "John Doe"
+ email: "nope@example.com"
+ url: "/about/"

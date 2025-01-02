@@ -1,0 +1,22 @@
+<footer class="border-top">
+<div class="container px-4 px-lg-5">
+<div class="row gx-4 gx-lg-5 justify-content-center">
+<div class="col-md-10 col-lg-8 col-xl-7">
+<ul class="list-inline text-center">
+{% for s in metadata.footer.social %}<li class="list-inline-item">
+<a href="{{s.link}}" title="{{s.title}}" target="_blank">
+<span class="fa-stack fa-lg">
+<i class="fas fa-circle fa-stack-2x"></i>
+<i class="{{s.icon}} fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li>{% endfor %}
+</ul>
+<div class="small text-center text-muted fst-italic">{{metadata.footer.copyrights}}<small>{{metadata.footer.text1}} <br/><a href="{{metadata.footer.text2_link}}">{{metadata.footer.text2}}</a> {{metadata.footer.text3}} <a href="{{metadata.footer.text4_link}}">{{metadata.footer.text4}}</a></small></div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous" defer></script>    
+{%- js %}{% include "public/js/bs.js" %}{% endjs %}
+<script type="module" src="{% getBundleFileUrl "js" %}" defer></script>

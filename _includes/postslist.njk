@@ -1,0 +1,12 @@
+{% for s in postslist | reverse %}
+<div class="post-preview">
+<a href="{{s.url}}"><h2 class="post-title">{{s.data.title}}</h2></a>
+{% if s.data.description %}<h3 class="post-subtitle">{{s.data.description}}</h3>{% endif %}
+<p class="post-meta">
+Posted by <a href="{{metadata.author.url}}">{{metadata.author.name}}</a>
+on {{s.date| readableDate}}
+</p>
+</div>
+<hr class="my-4" />
+{%- endfor -%}
+

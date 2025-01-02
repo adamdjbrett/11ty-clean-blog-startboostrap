@@ -1,0 +1,26 @@
+---
+layout: base.njk
+---
+{% include "partials/header.njk" %}
+<div class="container px-4 px-lg-5">
+<div class="row gx-4 gx-lg-5 justify-content-center">
+<div class="col-md-10 col-lg-8 col-xl-7">
+{{content |safe}}
+<hr class="my-4" />
+{%- for s in collections.posts | reverse | limit(6) -%}
+<div class="post-preview">
+<a href="{{s.url}}"><h2 class="post-title">{{s.data.title}}</h2></a>
+{% if s.data.description %}<h3 class="post-subtitle">{{s.data.description}}</h3>{% endif %}
+<p class="post-meta">
+Posted by <a href="{{metadata.author.url}}">{{metadata.author.name}}</a>
+on {{s.date| readableDate}}
+</p>
+</div>
+<hr class="my-4" />
+{%- endfor -%}
+<div class="row">
+<div class="col-md-12 mb-5 mt-3"><a class="btn btn-primary text-uppercase col-12" href="{{metadata.blog.url}}">{{metadata.blog.button}}</a></div>
+</div>
+</div>
+</div>
+</div>

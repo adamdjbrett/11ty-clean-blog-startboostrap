@@ -1,0 +1,18 @@
+<header class="masthead" style="background-image: url('https://wsrv.nl/?url={{metadata.url}}{{image or metadata.image}}&output=webp')">
+<div class="container position-relative px-4 px-lg-5">
+<div class="row gx-4 gx-lg-5 justify-content-center">
+<div class="col-md-10 col-lg-8 col-xl-7">
+<div class="post-heading">
+<h1><strong><a href="{{metadata.url}}" class="text-white">{{title or metadata.title}}</a></strong></h1>
+<span class="subheading">{{description or metadata.description}}</span>
+<span class="meta">
+Posted by <a href="{{metadata.author.url}}" class="text-white">{{metadata.author.name}}</a>
+{% if page.date %}on <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time><br/>{% endif %}
+{% if tags %}<br/>{%- for tag in tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+<a href="{{ tagUrl }}" class="text-white">{{ tag }}</a>{%- if not loop.last %}, {% endif %}{%- endfor %}{% endif %}
+</span>
+</div>
+</div>
+</div>
+</div>
+</header>

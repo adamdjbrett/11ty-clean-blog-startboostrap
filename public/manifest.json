@@ -1,0 +1,16 @@
+{
+	"background_color": "#fff",
+	"theme_color": "#e95339",
+	"name": "11ty-clean-blog-startboostrap",
+	"short_name": "11ty-clean-blog-startboostrap",
+	"display": "minimal-ui",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "logo.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	]
+}
