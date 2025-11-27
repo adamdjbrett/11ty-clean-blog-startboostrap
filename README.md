@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/92354f17-af5a-4a55-94b5-5cc3eb0b3807/deploy-status)](https://app.netlify.com/sites/superlative-klepon-a3d521/deploys)
+
 # 11ty Clean Blog Template
 [A clean Bootstrap blog theme created by Start Bootstrap](https://github.com/startbootstrap/startbootstrap-clean-blog)
 
