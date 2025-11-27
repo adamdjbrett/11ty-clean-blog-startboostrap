@@ -1,4 +1,4 @@
-
+[![Deploy Eleventy to 🛰 xmit](https://github.com/adamdjbrett/11ty-clean-blog-startboostrap/actions/workflows/xmit-deploy.yml/badge.svg)](https://github.com/adamdjbrett/11ty-clean-blog-startboostrap/actions/workflows/xmit-deploy.yml)
 # 11ty Clean Blog Template
 [A clean Bootstrap blog theme created by Start Bootstrap](https://github.com/startbootstrap/startbootstrap-clean-blog)
 
